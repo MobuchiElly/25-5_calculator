@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const App = () => {
   const [inputStr, setInputStr] = useState("");
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState("0");
   const [total, setTotal] = useState(0);
 
   const handleNumClick = (number) => {
